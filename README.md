@@ -1,8 +1,16 @@
 PA2-Montales Documentation
 
 
+Numerical Python, also known as NumPy, is a critical tool for working with data in Python due to its performance and versatility. It is one of the most important tools to learn in data analytics and machine learning, making it a cornerstone of Python's data science
+
 This programming assignment focuses on applying normalization techniques in data analytics using Python. It involves creating and manipulating ndarray and experimenting with their functions. The goal is to provide hands-on experience with both the theory and practical implementation of normalization methods in Python.
 
+
+
+
+<p align="center"> 
+NORMALIZATION PROBLEM
+</p>  
 
 Reference:
 ```
@@ -19,9 +27,6 @@ Reference:
 [11]  X_normalized
 ```
 
-<p align="center"> 
-NORMALIZATION PROBLEM
-</p>  
 
 In order to utilize the Numerical Python library we first need to first write the following (line [1]): 
 ```
@@ -64,9 +69,15 @@ array([[-0.15046758, -0.54418315,  1.02313319, -0.00463552, -1.1525935 ],
 [8]div_by_3                                     
 
 ```
-Simillar to the first problem, we first write ```import numpy as np``` in order to utilize numerical python library
+Simillar to the first problem, we first write the following in order to utilize numerical python library:
+```
+import numpy as np
+```
 
-In the following line, we create an array that will store values that range from 1 to 100 using ```np.arange(1,101)```
+In the following line, we create an array that will store values that range from 1 to 100 using 
+```
+np.arange(1,101)
+```
 
 it is then followed by the ```.reshape()``` method and inside the parenthesis we indicate the shape of the array.
 we then use "**" otherwise known as the exponential syntax in order to get the square of the numbers inside the array.
@@ -76,7 +87,6 @@ A modulo function is then created in line [5] with a variable name of "div_by_3"
 At line [7] "div_by_3" is saved as "div_by_3.npy" at the disk
 
 Line [8] is where the output gets displayed.
-
 
 
    
