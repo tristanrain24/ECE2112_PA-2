@@ -80,7 +80,8 @@ np.arange(1,101)
 ```
 
 it is then followed by the ```.reshape()``` method and inside the parenthesis we indicate the shape of the array.
-we then use "**" otherwise known as the exponential syntax in order to get the square of the numbers inside the array.
+
+The exponential syntax is then used square the numbers inside the array, the exponential syntax is expressed as: ```"**"```
 
 A modulo function is then created in line [5] with a variable name of "div_by_3" that will find integers divisible by 3
 
