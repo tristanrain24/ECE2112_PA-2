@@ -1,3 +1,6 @@
+PA2-Montales Documentation
+
+
 This programming assignment focuses on applying normalization techniques in data analytics using Python. It involves creating and manipulating ndarray and experimenting with their functions. The goal is to provide hands-on experience with both the theory and practical implementation of normalization methods in Python.
 
 
