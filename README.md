@@ -89,5 +89,7 @@ At line [7] "div_by_3" is saved as "div_by_3.npy" at the disk
 
 Line [8] is where the output gets displayed.
 
-
+VERSION HISTORY:
+1.0 Accomplished Assignment
+1.1 Added .npy files on the repository
    
